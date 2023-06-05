@@ -5,3 +5,270 @@
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
+#hero{
+    background-image: url(./images/Rectangle\ 1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 120vh
+}
+#hero h1{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 37px;
+}
+#hero button{
+    background-color: white;
+    width: 147px;
+    height: 40px;
+    color: #7C0B0B;
+    border-radius: 10px;
+    font-size: 16px;
+}
+.om{
+    padding-left: 40px;
+    border: 1px solid #720B0B;
+    width: 587px; 
+    height: 651px;
+}
+.om form input{
+    width: 463px;
+    height: 42px;
+    outline: none;
+    padding-left: 5px;
+}
+.om form select{
+    width: 463px;
+    height: 42px;
+}
+.om h3{
+    color: #7C0B0B;
+    margin-top: 60px;
+}
+.mobile-form{
+    display: none;
+}
+.om h5{
+    color: #7C0B0B;
+    margin-bottom: 10px;
+}
+.om form{
+    margin-top: 29px;
+    display: block;
+    outline: none;
+} 
+.omo{
+    margin-left: 40px;
+}
+.om form select{
+    padding-left: 5px;
+    color: #7C0B0B;
+}
+.om form ::placeholder{
+    color: #720B0B;
+    padding: 5px;
+}
+.om form button{
+    background-color: #7C0B0B;
+    color: white;
+    width: 96px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    display: block;
+    margin: 10px auto;
+}
+.om form button a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+.fobot{
+    position: relative;
+    bottom: 15px;
+}
+.about{
+    margin-top: 80px;
+    font-weight: 700;
+}
+.aboutt{
+    font-weight: 500;
+    line-height: 19px;
+    margin-top: 17px;
+}
+.op{
+    border: 1px solid #720B0B;
+}
+.bk{
+background-color: #720B0B;
+}
+.phead{
+    font-weight: 700;
+}
+.ptext{
+    color: #720B0B;
+}
+.join{
+    margin-left: 180px;
+}
+#join{
+    background-color: #7C0B0B;
+    font-size: 12px;
+}
+#all{
+    background-color: #7C0B0B;
+}
+#tes{
+    margin-top: 80px;
+}
+#test{
+    background-color: rgba(124, 11, 11, 0.4);
+}
+.our{
+    color: #720B0B;
+    margin-bottom: 60px;
+}
+#sub{
+    margin-top: 100px;
+    margin-bottom: 15px;
+}
+.fir{
+    width: 560px;
+    height: 54px;
+    border: 2px solid #7C0B0B;
+    border-radius: 30px;
+    margin-left: 160px;
+    padding-left: 30px;
+}
+::placeholder{
+    color: #7C0B0B;
+}
+#sec{
+    width: 164px;
+    height: 54px;
+    position: relative;
+    right: 150px;
+    background-color: #7C0B0B;
+    color: antiquewhite;
+    border-radius: 30px;
+    border: none;
+}
+#pic{
+    background-color: white;
+    position: relative;
+    top: 80px;
+    border-radius: 20px;
+    width: 695px;
+    height: 112;
+    left: 80px;
+}
+.enddd{
+    width: 1440px;
+    height: 407px;
+    background-color: #720B0B;
+    margin-top: 100px;
+}
+.enddd1{
+    width: 695px;
+    height: 112px;
+    background-color: white;
+    border-radius: 30px;
+}
+.enders{
+    padding-top: 107px;
+    padding-left: 100px;
+}
+.enddd .endbot{
+    background-color: #720B0B;
+    width: 144px;
+    height: 40px;
+    margin-top: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.endbot{
+    color: white;
+}
+.pic img{
+    margin-top: 20px;
+}
+.tab{
+    display: flex;
+    padding-bottom: 150px;
+}
+.tab1{
+    margin-left: 150px;
+}
+.tab2{
+    margin-left: 40px;
+}
+.tab1 table a{
+    text-decoration: none;
+    color: white;
+}
+.tab2 table a{
+    text-decoration: none;
+    color: white;
+}
+@media(max-width:500px){
+    #hero h1{
+        font-size: 20px;
+    }
+    .desktop-form{
+        display: none;
+    }
+    .mobile-form{
+        display: block;
+    }
+    .om form{
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        margin-right: 80px;
+    }
+    .om form input{
+        width: 100%;
+    }
+    .om form select{
+        width: 100%;
+    }
+    #ago{
+       display: block;
+       flex-direction: row;
+       align-items: center;
+       width: 1500px;
+       margin-left: 50px;
+       justify-content: space-between;
+    }
+    #ago .ag{
+        display: block;
+    }
+    #ago #join{
+        justify-content: ;
+    }
+    .img img{
+        width: 395px;
+        height: 584px;
+    }
+    #sec{
+        margin-left: 80px;
+    }
+    .enddd1{
+        flex-direction: column;
+    }
+    .enddd1 .any{
+        bottom:0px;
+        font-size: small;
+    }
+    .tab1{
+        position: relative;
+        bottom: 120px;
+    }
+    .tab2{
+        position: relative;
+        right: 9px;
+        bottom: 20px;
+    }
+}
